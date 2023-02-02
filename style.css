@@ -2,11 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #ffffff;
-    background-image: url('../portifoliokey/2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
+    background-color:rgb(37, 35, 35);
     box-sizing: border-box;
     padding: 0;
     margin : 0;
@@ -22,20 +18,35 @@ header{
     align-items: center;
     justify-content: space-between; 
     flex-direction: row;
-}
-a{
-    text-decoration: none;
-    display: inline;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    float: right;
+    margin-right: 10px;
+
     
+
 }
-a:hover{
-    color: rgb(26, 184, 34);
+ul{
+    list-style:none;
+    margin:0
+    padding:0
+    overflow: hidden;
+    background-color #
 }
-.container{
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: rgb(23, 170, 55);
+}
+.container {
     text-align: center;
 }
 #imagem > img{
@@ -50,6 +61,19 @@ a:hover{
     font-size: 20px;
     display: flex;
     padding: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*/a{
+    text-decoration: none;
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;    
+}
+a:hover{
+    color: rgb(26, 184, 34);
 }
 
-
+}
